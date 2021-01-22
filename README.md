@@ -1,33 +1,35 @@
 # Shell-Data-Processing Cheat Sheet
-## Some useful powershell commands
---powershell
+## Some useful powershell commands:
+
+```powershell
 cd // to navigate through directories.
 ls // List all files in the given directory.
-shift + C // Copy
-Shift + V // Paste
---
+```
+* shift + C : Copy
+* Shift + V : Paste
+
 ## Some useful Bash commands
---Bash
-shift + insert // Copy
-ctrl + insert // paste
---
+
+* shift + insert : Copy
+* ctrl + insert : paste
+
 
 <br>
 
 ## Command used to get data from a web page:
---powershell
+```powershell
 curl "yourlongurl" -O 
---
+```
 ### * Command used to get data from a web page with example:
---powershell
+```powershell
 curl "https://dev.to/vinodsr/nestjs-a-backend-nodejs-framework-for-the-enterprise-40m6" -O 
---
+```
 ### * Command used to get data from a web page and write in a text file:
---powershell
+```powershell
 curl "https://dev.to/vinodsr/nestjs-a-backend-nodejs-framework-for-the-enterprise-40m6" -O "data.txt"
---
+```
 ## The Command used to fing the most common words, sorted:
---Bash
+```Bash
 tr ' ' '\12' < data.txt | sort | uniq -c | sort -nr
---
+```
 
