@@ -10,8 +10,8 @@ ls // List all files in the given directory.
 
 ## Some useful Git Bash Shortcuts:
 
-* shift + insert : Copy
-* ctrl + insert : paste
+* shift + insert : Paste
+* ctrl + insert : Copy
 
 
 <br>
