@@ -20,11 +20,11 @@ ls // List all files in the given directory.
 ```powershell
 curl "yourlongurl" -O 
 ```
-### * Command used to get data from a web page with example:
+### Command used to get data from a web page with example:
 ```powershell
 curl "https://dev.to/vinodsr/nestjs-a-backend-nodejs-framework-for-the-enterprise-40m6" -O 
 ```
-### * Command used to get data from a web page and write in a text file:
+### Command used to get data from a web page and write in a text file:
 ```powershell
 curl "https://dev.to/vinodsr/nestjs-a-backend-nodejs-framework-for-the-enterprise-40m6" -O "data.txt"
 ```
@@ -37,5 +37,5 @@ tr ' ' '\12' < data.txt | sort | uniq -c | sort -nr
 <br>
 
 
-### * [data.txt](https://github.com/GD-Prasad/shell-data-processing/blob/master/data.txt)
-### * [results.txt](https://github.com/GD-Prasad/shell-data-processing/blob/master/results.txt)
+### [data.txt](https://github.com/GD-Prasad/shell-data-processing/blob/master/data.txt)
+### [results.txt](https://github.com/GD-Prasad/shell-data-processing/blob/master/results.txt)
