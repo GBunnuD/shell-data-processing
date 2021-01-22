@@ -8,7 +8,7 @@ ls // List all files in the given directory.
 * shift + C : Copy
 * Shift + V : Paste
 
-## Some useful Bash commands
+## Some useful Git Bash Shortcuts:
 
 * shift + insert : Copy
 * ctrl + insert : paste
@@ -33,3 +33,9 @@ curl "https://dev.to/vinodsr/nestjs-a-backend-nodejs-framework-for-the-enterpris
 tr ' ' '\12' < data.txt | sort | uniq -c | sort -nr
 ```
 
+<br>
+<br>
+
+
+### * [data.txt](https://github.com/GD-Prasad/shell-data-processing/blob/master/data.txt)
+### * [results.txt](https://github.com/GD-Prasad/shell-data-processing/blob/master/results.txt)
